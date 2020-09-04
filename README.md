@@ -8,6 +8,12 @@ bits/stdc++ is a GNU GCC extension, whereas OS X uses the clang compiler. Howeve
 * Create stdc++.h file (touch stdc++.h or vim stdc++.h)
 * Paste the contents of the stdc+.h file here
 
+or
+* Inside the directory /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/
+* Create a directory named bits (mkdir bits)
+* Create stdc++.h file (touch stdc++.h or vim stdc++.h)
+* Paste the contents of the stdc+.h file here
+
 Now it should compile as expected
 
 I have also included "using namespace std;" in this file.
