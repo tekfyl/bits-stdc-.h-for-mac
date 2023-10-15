@@ -58,6 +58,8 @@
   #include <ctgmath>
   #include <cwchar>
   #include <cwctype>
+  #include <exception>
+  #include <stdexcept>
   #endif
 
   // C++
