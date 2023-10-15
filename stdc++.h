@@ -26,10 +26,6 @@
  *  This is an implementation file for a precompiled header.
   */
 
-// Also writing "using namespace std;" here so that you dont need to write it everytime you start a cpp file
-
-using namespace std;
-
 
   // 17.4.1.2 Headers
 
@@ -119,3 +115,7 @@ using namespace std;
   #include <unordered_map>
   #include <unordered_set>
   #endif
+
+// Also writing "using namespace std;" here so that you dont need to write it everytime you start a cpp file
+
+using namespace std;
